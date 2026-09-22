@@ -1,12 +1,13 @@
+import Link from "next/link";
 import { site } from "@/data/site";
 
 export default function Header() {
   return (
     <header className="absolute left-0 top-0 z-20 w-full">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 md:px-10">
-        <a href="/" className="text-base font-medium tracking-wide text-white">
+        <Link href="/" className="text-base font-medium tracking-wide text-white">
           Willow & Gray
-        </a>
+        </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
           <a
