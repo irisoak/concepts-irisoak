@@ -16,9 +16,14 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Take a look",
-  description:
-    "Concept website by Iris & Oak.",
+  title: "Take a look — Iris & Oak Concepts",
+  description: "Concept website by Iris & Oak.",
+
+  icons: {
+    icon: "/iris-oak-icon.png",
+    shortcut: "/iris-oak-icon.png",
+    apple: "/iris-oak-icon.png",
+  },
 };
 
 export default function RootLayout({
