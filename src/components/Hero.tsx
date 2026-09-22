@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="relative flex min-h-screen items-end overflow-hidden bg-[#20231f] text-white">
       <Image
-        src="/images/wee-puffin/hero-food.jpg"
+        src="/images/hero-food.jpg"
         alt="Highland-inspired dining setting"
         fill
         priority
@@ -50,7 +50,7 @@ export default function Hero() {
 
           <div className="mt-10 flex items-center gap-3 text-sm text-white/55">
             <span className="h-px w-8 bg-white/30" />
-            <span>Independent restaurant in the Cairngorms</span>
+            <span>Independent restaurant in the heart of the city</span>
           </div>
         </div>
       </div>

@@ -14,9 +14,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "The Wee Puffin | Grantown-on-Spey",
+  title: "Take a look",
   description:
-    "Concept website for The Wee Puffin in Grantown-on-Spey.",
+    "Concept website by Iris & Oak.",
 };
 
 export default function RootLayout({

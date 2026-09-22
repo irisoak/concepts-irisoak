@@ -1,7 +1,7 @@
 export const site = {
-  name: "The Wee Puffin",
-  location: "Grantown-on-Spey",
-  tagline: "Highland food. A warm welcome. A wee dram or two.",
+  name: "Willow & Gray Restaurant",
+  location: "High Street",
+  tagline: "Seasonal food, warm hospitality, simply done.",
 
   navigation: {
     menu: "Menu",
@@ -11,83 +11,77 @@ export const site = {
 
   cta: {
     primary: "View Menu",
-    secondary: "Book a Table",
+    secondary: "Plan Your Visit",
   },
 
   intro: {
-    eyebrow: "Our wee corner of the Highlands",
-    title: "Good food, Highland character and a warm welcome.",
+    eyebrow: "Our Story",
+    title: "Good food. Thoughtfully prepared.",
     description:
-      "In the heart of Grantown-on-Spey, The Wee Puffin is a place to settle in, enjoy good food and discover a carefully chosen dram along the way.",
-    link: "Discover our food",
+      "Willow & Gray is a neighbourhood restaurant built around seasonal dishes, relaxed dining and the kind of hospitality that makes you want to stay a little longer.",
+    link: "Discover our story",
   },
 
   menuPreview: {
     eyebrow: "From the kitchen",
-    title: "Comforting favourites with plenty of character.",
+    title: "Seasonal dishes, familiar favourites.",
     description:
-      "From hearty classics to something sweet, discover a taste of The Wee Puffin.",
+      "From comforting favourites to something sweet, explore a selection of dishes made to be enjoyed.",
 
     items: [
       {
-        name: "Fish & Chips",
-        description: "A Wee Puffin favourite.",
+        name: "Sunday Roast",
+        description: "A house favourite, prepared with care.",
       },
       {
-        name: "Mijoté de Boeuf",
-        description: "Purée & petits légumes.",
+        name: "Wild Mushroom Risotto",
+        description: "Fresh ingredients and flavours inspired by the season.",
       },
       {
-        name: "Chocolate Fudge Cake",
+        name: "Chocolate Torte",
         description: "Something sweet to finish.",
       },
     ],
   },
-  whisky: {
-    eyebrow: "A wee dram",
+
+  drinks: {
+    eyebrow: "From the bar",
     title: "Take your time. Stay for one more.",
     description:
-      "From familiar favourites to something new, the whisky selection gives guests another reason to settle in and enjoy the evening.",
-    note: "Ask us what we're pouring.",
+      "From familiar favourites to something new, our drinks selection is made for relaxed evenings and good company.",
+    note: "Ask us about today's selection.",
   },
-  reviews: {
-    eyebrow: "Kind words",
-    title: "Loved by locals and visitors alike.",
-    description:
-      "A warm Highland welcome, memorable food and an atmosphere that keeps guests coming back.",
-    rating: "4.7",
-    platform: "Google",
-    reviewCount: "480+ reviews",
-  },
+
   visit: {
     eyebrow: "Come and see us",
-    title: "Find your way to The Wee Puffin.",
-    location: "15 High St, Grantown-on-Spey PH26 3EG",
+    title: "Plan your visit.",
+    location: "123 High Street, Your Town, AB1 2CD",
     description:
-      "In the heart of Grantown-on-Spey. Join us for dinner from Friday through Tuesday.",
+      "Find us in the heart of town and join us for good food, drinks and a warm welcome.",
     reservationLabel: "Book a table",
     directionsLabel: "Get directions",
 
     openingHours: [
-      { day: "Monday", hours: "5–9 pm" },
-      { day: "Tuesday", hours: "5–9 pm" },
-      { day: "Wednesday", hours: "Closed" },
-      { day: "Thursday", hours: "Closed" },
-      { day: "Friday", hours: "5–9 pm" },
-      { day: "Saturday", hours: "5–9 pm" },
-      { day: "Sunday", hours: "5–9 pm" },
+      { day: "Monday", hours: "Closed" },
+      { day: "Tuesday", hours: "Closed" },
+      { day: "Wednesday", hours: "12–10 pm" },
+      { day: "Thursday", hours: "12–10 pm" },
+      { day: "Friday", hours: "12–11 pm" },
+      { day: "Saturday", hours: "12–11 pm" },
+      { day: "Sunday", hours: "12–9 pm" },
     ],
 
     contact: {
-      phone: "01479 873377",
-      mobile: "07950 478257",
-      email: "theweepuffin@outlook.com",
-      bookingNote: "Bookings are recommended. Call or message us to reserve.",
+      phone: "01234 567890",
+      email: "hello@example.com",
+      bookingNote:
+        "Bookings are recommended. Call or book online to reserve your table.",
     },
   },
+
   footer: {
-    location: "Grantown-on-Spey, Scottish Highlands",
-    copyright: "The Wee Puffin",
+    location: "Your Town, United Kingdom",
+    copyright: "Willow & Gray Restaurant",
     links: {
       menu: "Menu",
       about: "Our Story",

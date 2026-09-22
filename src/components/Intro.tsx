@@ -36,8 +36,8 @@ export default function Intro() {
 
         <div className="relative mt-14 aspect-[16/9] overflow-hidden rounded-sm md:mt-20">
           <Image
-            src="/images/wee-puffin/exterior-concept.jpg"
-            alt="Concept image representing The Wee Puffin restaurant exterior"
+            src="/images/restaurant.png"
+            alt="Concept image representing the restaurant's interior"
             fill
             loading="eager"
             className="intro-image object-cover transition duration-700 hover:scale-[1.03]"

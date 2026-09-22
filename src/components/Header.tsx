@@ -4,11 +4,8 @@ export default function Header() {
   return (
     <header className="absolute left-0 top-0 z-20 w-full">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 md:px-10">
-        <a
-          href="#"
-          className="text-base font-medium tracking-wide text-white"
-        >
-          {site.name}
+        <a href="/" className="text-base font-medium tracking-wide text-white">
+          Willow & Gray
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">
@@ -28,7 +25,6 @@ export default function Header() {
 
           <a
             href="#visit"
-            className="text-sm text-white/80 transition hover:text-white"
           >
             {site.navigation.visit}
           </a>

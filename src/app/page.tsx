@@ -3,7 +3,6 @@ import Hero from "@/components/Hero";
 import Intro from "@/components/Intro";
 import MenuPreview from "@/components/MenuPreview";
 import Whisky from "@/components/Whiskey";
-import Reviews from "@/components/Reviews";
 import Visit from "@/components/Visit";
 import Footer from "@/components/Footer";
 
@@ -15,7 +14,6 @@ export default function Home() {
       <Intro />
       <MenuPreview />
       <Whisky />
-      <Reviews />
       <Visit />
       <Footer />
     </main>
