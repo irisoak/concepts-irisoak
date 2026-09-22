@@ -19,7 +19,7 @@ export const site = {
     title: "Good food. Thoughtfully prepared.",
     description:
       "Willow & Gray is a neighbourhood restaurant built around seasonal dishes, relaxed dining and the kind of hospitality that makes you want to stay a little longer.",
-    link: "Discover our story",
+    link: "Discover our food",
   },
 
   menuPreview: {
